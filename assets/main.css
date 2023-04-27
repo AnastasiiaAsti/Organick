@@ -17,6 +17,8 @@ body {
     background: #fff;
 }
 
+/* Navigation START */
+
 a {
     text-decoration: none;
     color: var(--dark-green);
@@ -60,8 +62,8 @@ nav ul li {
 .search-bar input {
     background-color: var(--x-lt-gray);
     border: none;
-    padding: 12px;
-    border-radius: 15px;
+    padding: 14px;
+    border-radius: 20px;
     position: relative;
     width: 300px;
 }
@@ -75,13 +77,14 @@ nav ul li {
     background-color: var(--med-green);
     border-radius: 50%;
     color: #fff;
+    margin: 2px;
 }
 
 .cart {
     background-color: var(--x-lt-gray);
     margin-left: 10px;
     border: 1px solid lightgray;
-    border-radius: 20px;
+    border-radius: 25px;
     padding-right: 10px;
 }
 
@@ -92,10 +95,27 @@ nav ul li {
 }
 
 .cart .btn {
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 50%;
     color: #fff;
     background-color: var(--dark-green);
     margin: 2px;
+}
+
+/* Navigation END */
+
+.hero {
+    width: 100vw;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    left: 45%;
 }
