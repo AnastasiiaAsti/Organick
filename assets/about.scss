@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.conteiner {
+    width: 100%;
+    background-color: white;
+    font-family: 'Yellowtail', cursive;
+    color: rgba(126, 182, 147, 1);
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    .item__content_title {
+        font-size: 50px;
+        font-family: Roboto;
+        color: rgba(39, 76, 91, 1);
+        line-height: 58.59px;
+    }
+
+    .item__content_text {
+        font-size: 18px;
+        font-family: Open Sans;
+        color: rgba(82, 92, 96, 1);
+        line-height: 29.77px;
+    }
+
+    .icons {
+        font-size: 25px;
+        font-family: Roboto;
+        color: rgba(39, 76, 91, 1);
+        line-height: 29.3px;
+    }
+
+    .button {
+        font-size: 20px;
+        font-family: Roboto;
+        color: rgba(255, 255, 255, 1);
+        line-height: 23.44px;
+        background-color: rgba(39, 76, 91, 1);
+
+        width: 226px;
+        height: 80px;
+        border-radius: 16px;
+
+        img {
+            width: 10%;
+        }
+    }
+}
