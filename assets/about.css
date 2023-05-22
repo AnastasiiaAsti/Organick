@@ -8,15 +8,6 @@ img {
   width: 100%;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button img {
-  padding: 0 !important;
-}
 
 .conteiner {
   width: 100%;
@@ -95,13 +86,17 @@ img {
   background-color: rgb(39, 76, 91);
   width: 145px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 14px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.aboutUs-item .button .vector {
-  width: 10%;
-  padding-top: 5%;
+
+.button img {
+  padding: 3%;
+  width: 13%;
 }
 
 
