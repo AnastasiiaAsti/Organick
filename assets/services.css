@@ -6,6 +6,9 @@
   .conteiner {
     width: 100%;
   }
+  .banner-item  {
+    background-color: #F9F8F8;
+  }
   .banner-item img {
     width: 100%;
   }
@@ -31,7 +34,7 @@
     color: rgb(39, 76, 91);
 }
 
-.products-item-description-img img{
+img{
     width: 100%;
 }
 
@@ -94,11 +97,12 @@ margin-top: 5%;
   }
   
 .organic-item{
-    height: 90vh;
+    height: 100vh;
     text-align: center;
     background-image: url("./images/services_Video.png");
-    background-size: contain;
-padding-top: 10%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
 }
 .organic-item-text{
     font-size: 14px;
@@ -116,7 +120,7 @@ padding-top: 10%;
     flex-direction: row;
     justify-content: space-around;
     padding-right: 5%;
-    margin-bottom: 7%;
+    margin: 7% 0;
   }
   
   .logo {
