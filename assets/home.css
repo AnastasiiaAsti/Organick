@@ -17,6 +17,10 @@ body {
     background: #fff;
 }
 
+img {
+    width: 100%;
+}
+
 /* Navigation START */
 
 a {
@@ -105,19 +109,125 @@ nav ul li {
 
 /* Navigation END */
 
-.hero {
+.container_hero {
     width: 100%;
     position: relative;
     font-family: 'Roboto';
-    color: var(--dark-green);
+    color: #274C5B;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 22px;
+}
+
+.container_hero .slogan {
+    text-align: left;
+    position: absolute;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #68A47F;
+    top: 22%;
+    left: 15%;
+    right: 50%;
 }
 
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 45%;
-    left: 10%;
+    top: 30%;
+    left: 15%;
     right: 50%;
+}
+
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.container_hero .button {
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #EFD372;
+    color: #274C5B;
+    width: 145px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+    top: 60%;
+    left: 15%;
+    right: 50%;
+}
+
+.button .vector {
+    padding: 3%;
+    width: 13%;
+}
+
+.container_offers {
+    display: grid;
+}
+
+.natural {
+    grid-column: 1/2;
+    grid-row: 1/1;
+    width: 70%;
+    border-radius: 14px;
+    margin: 10% 30% 50%;
+}
+
+.offer {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    width: 70%;
+    border-radius: 14px;
+    margin: 10% 3% 30%;
+}
+
+.container_offers .title {
+    text-align: left;
+    position: absolute;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    margin: 130px 220px 40px;
+}
+
+.container_offers_text {
+    text-align: left;
+    position: absolute;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 800;
+    font-size: 27px;
+    margin: 170px 220px 40px;
+}
+
+.container_offers .title2 {
+    text-align: left;
+    position: absolute;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #68A47F;
+    margin: 130px 690px 40px;
+}
+
+.container_offers_text2 {
+    text-align: left;
+    position: absolute;
+    font-family: 'Roboto';
+    color: #274C5B;
+    font-weight: 800;
+    font-size: 27px;
+    margin: 170px 690px;
 }
