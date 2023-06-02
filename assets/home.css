@@ -181,7 +181,7 @@ nav ul li {
     grid-row: 1/1;
     width: 70%;
     border-radius: 14px;
-    margin: 10% 30% 50%;
+    margin: 10% 30%;
 }
 
 .offer {
@@ -189,7 +189,7 @@ nav ul li {
     grid-row: 1/1;
     width: 70%;
     border-radius: 14px;
-    margin: 10% 3% 30%;
+    margin: 10% 3%;
 }
 
 .container_offers .title {
@@ -230,4 +230,124 @@ nav ul li {
     font-weight: 800;
     font-size: 27px;
     margin: 170px 690px;
+}
+
+.container_about {
+    display: grid;
+    background-color: #F9F8F8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fruits_pic {
+    grid-column: 1/2;
+    grid-row: 1/1;
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 100%;
+
+
+}
+
+.about_text {
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    text-align: left;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 110px;
+}
+
+.container_about h1 {
+    color: #274C5B;
+    font-family: Roboto;
+    padding-top: 10px;
+}
+
+.container_about p {
+    color: #7EB693;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    ;
+
+}
+
+.about_items {
+    font-family: "Open Sans";
+    color: #525C60;
+    padding-top: 10px;
+    padding-right: 160px;
+    font-size: 13px;
+}
+
+.organic_food {
+    display: grid;
+
+}
+
+.container_about .vegan_food {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: white;
+    width: 70px;
+    padding: 20px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.icon_ellipse {
+    width: 100%;
+    color: yellow;
+    border-radius: 50px;
+
+}
+
+.first_title {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.first_text {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    margin-top: 35px;
+    width: 70%;
+}
+
+.first_title_text {
+    color: #525C60;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.container_about .quality_standarts {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    background-color: white;
+    width: 70px;
+    padding: 20px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.second_text {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: 35px;
+}
+
+.second_title {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.second_title_text {
+    color: #525C60;
+    font-family: Roboto;
+    font-size: 13px;
 }
