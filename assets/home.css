@@ -173,23 +173,21 @@ nav ul li {
 }
 
 .container_offers {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .natural {
-    grid-column: 1/2;
-    grid-row: 1/1;
-    width: 70%;
+    width: 35%;
     border-radius: 14px;
-    margin: 10% 30%;
+    margin: 100px 10px 110px 170px;
 }
 
 .offer {
-    grid-column: 2/3;
-    grid-row: 1/1;
-    width: 70%;
+    width: 35%;
     border-radius: 14px;
-    margin: 10% 3%;
+    margin: 100px 170px 110px 10px;
 }
 
 .container_offers .title {
@@ -199,7 +197,7 @@ nav ul li {
     font-weight: 400;
     font-size: 22px;
     color: white;
-    margin: 130px 220px 40px;
+    margin: 170px 200px 40px;
 }
 
 .container_offers_text {
@@ -209,7 +207,7 @@ nav ul li {
     color: white;
     font-weight: 800;
     font-size: 27px;
-    margin: 170px 220px 40px;
+    margin: 210px 200px 40px;
 }
 
 .container_offers .title2 {
@@ -219,7 +217,7 @@ nav ul li {
     font-weight: 400;
     font-size: 22px;
     color: #68A47F;
-    margin: 130px 690px 40px;
+    margin: 170px 670px 40px;
 }
 
 .container_offers_text2 {
@@ -229,34 +227,28 @@ nav ul li {
     color: #274C5B;
     font-weight: 800;
     font-size: 27px;
-    margin: 170px 690px;
+    margin: 210px 670px;
 }
 
 .container_about {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     background-color: #F9F8F8;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .fruits_pic {
-    grid-column: 1/2;
-    grid-row: 1/1;
-    margin-left: 90px;
-    margin-right: 20px;
+    margin-left: 50px;
     margin-top: 50px;
-    width: 100%;
-
-
+    margin-bottom: 50px;
+    width: 90%;
 }
 
 .about_text {
     position: relative;
-    grid-column: 2/3;
-    grid-row: 1/1;
     text-align: left;
-    width: 90%;
-    margin-left: 70px;
+    width: 100%;
     margin-top: 110px;
 }
 
@@ -283,39 +275,43 @@ nav ul li {
     font-size: 13px;
 }
 
+.standarts {
+    display: flex;
+    flex-direction: column;
+}
+
 .organic_food {
-    display: grid;
+    display: flex;
+    flex-direction: row;
 
 }
 
 .container_about .vegan_food {
-    grid-column: 1/2;
-    grid-row: 1/2;
     background-color: white;
-    width: 70px;
-    padding: 20px;
+    width: 10%;
+    padding: 15px;
     border-radius: 9px;
     margin-top: 20px;
 }
 
 .icon_ellipse {
     width: 100%;
-    color: yellow;
+    background-color: yellow;
     border-radius: 50px;
 
+}
+
+.first_text {
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 50%;
 }
 
 .first_title {
     color: #274C5B;
     font-family: Roboto;
     font-size: 17px;
-}
-
-.first_text {
-    grid-column: 2/2;
-    grid-row: 1/2;
-    margin-top: 35px;
-    width: 70%;
+    font-weight: 700;
 }
 
 .first_title_text {
@@ -324,30 +320,64 @@ nav ul li {
     font-size: 13px;
 }
 
-.container_about .quality_standarts {
-    grid-column: 1/2;
-    grid-row: 2/2;
+.standarts_items {
     background-color: white;
-    width: 70px;
-    padding: 20px;
+    width: 10%;
+    padding: 15px;
     border-radius: 9px;
     margin-top: 20px;
 }
 
+.quality_standarts {
+    display: flex;
+    flex-direction: row;
+}
+
 .second_text {
-    grid-column: 2/2;
-    grid-row: 2/2;
     margin-top: 35px;
+    margin-left: 10px;
+    width: 50%;
 }
 
 .second_title {
     color: #274C5B;
     font-family: Roboto;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .second_title_text {
     color: #525C60;
     font-family: Roboto;
     font-size: 13px;
+}
+
+.buttonShop {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonShop .button {
+    display: flex;
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #274C5B;
+    color: #FFFFFF;
+    width: 145px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms ease;
+    top: 60%;
+    left: 15%;
+    right: 50%;
+}
+
+.button .vector {
+    padding: 2%;
+    width: 16%;
 }
