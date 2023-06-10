@@ -8,7 +8,6 @@
   }
 
 
-
 .subscribe-item {
     width: 100%;
     height: 50vh;
@@ -121,6 +120,38 @@
     width: 40%;
   }
   
+  .footer-item-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8% 15% 0 15%;
+    width: 100%;
+    height: 90px;
+  }
+  .footer-item-icons-window{
+    background-color: #EFF6F1;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .footer-item-icons img {
+    width: 100%;
+    display:block;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    bottom:25px;
+    background-color:#EFF6F1;
+    border-radius: 100%;
+    position: absolute;
+    z-index: auto;
+    opacity: 50%;
+  }
+  
   .footer-item-utilityPages {
     text-align: left;
     font-size: 14px;
@@ -128,17 +159,6 @@
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
     line-height: 35px;
-  }
-  
-  .footer-item-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8% 18% 0 18%;
-  }
-  
-  .footer-item-icons img {
-    width: 80%;
   }
   
   .end {

@@ -6,12 +6,35 @@
   .conteiner {
     width: 100%;
   }
-  .banner-item  {
-    background-color: #F9F8F8;
+  
+
+  .banner-item {
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
   }
+  
   .banner-item img {
     width: 100%;
   }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  .banner-item-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
 
   .description-item{
     width: 100%;
@@ -26,11 +49,27 @@
     flex-direction: row;
     padding:10% 5% 0 10%;
   }
-
-img {
+.pistachios{
+    position: relative;
     width: 100%;
 }
-
+.pistachios-img {
+    width: 100%;
+}
+.pistachios-label{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 73px;
+    height: 31px;
+    background-color: rgba(39, 76, 91, 1);
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
 .description-item-content-text{
     padding: 6%;
 }
@@ -56,7 +95,7 @@ img {
     text-decoration: line-through;
 }
 .description-item-content-text-price p {
-    font-size: 25px;
+  font-size: 25px;
   font-family: 'Open Sans';
   font-weight: bold;
   color:rgba(39, 76, 91, 1);

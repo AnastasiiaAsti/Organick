@@ -6,8 +6,31 @@
   .conteiner {
     width: 100%;
   }
+  .banner-item {
+    width: 100vw;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
+  }
+  
   .banner-item img {
-    width: 100%;
+    width: 100vw;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  .banner-item-text {
+    position: absolute;
+    top: 40%;
+    left: 33%;
   }
 .organic-item{
   margin: 10% 10% 0 10%;
