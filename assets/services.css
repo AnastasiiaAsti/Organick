@@ -6,17 +6,37 @@
   .conteiner {
     width: 100%;
   }
-  .banner-item  {
-    background-color: #F9F8F8;
+  .banner-item {
+    width: 100vw;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
   }
+  
   .banner-item img {
-    width: 100%;
+    width: 100vw;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  .banner-item-text {
+    position: absolute;
+    top: 39%;
+    left: 42%;
   }
 
 
   .products-item {
-   background-color: #F9F8F8;
-   padding: 10% 0;
+   background-color:rgba(255, 255, 255, 0.9);
+   padding: 10% 0 10% 0;
    text-align: center;
 }
 
@@ -27,27 +47,29 @@
 }
 
 .products-item-intro, .organic-item-intro{
-    padding-bottom: 3%;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: rgb(39, 76, 91);
 }
 
-img{
-    width: 100%;
-}
-
 .products-item-description{
     display: flex;
     flex-direction: row;
-    padding: 0 10%;
-    font-size: 14px;
+    padding: 0% 10%;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
     line-height: 29px;
 }
+
+.products-item-description-img{
+  width: 40%;
+  display:block;
+  margin:auto;
+}
+
 .products-item-description-columnFirst-textTitle{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -56,18 +78,44 @@ img{
     line-height: 29.3px;
 }
 .products-item-description-columnFirst{
-    text-align: right;
+  text-align: right;
+  margin-top: 5%;
 }
 
 .products-item-description-columnSecond{
     text-align: left;
+    margin-top: 5%;
 }
 
-.icons{
-width: 10%;
-margin-top: 5%;
+.description-icons{
+  position: relative;
+  width: 52px;
+  height: 52px;
 }
-  
+
+.description-icons .ellipse{
+position: absolute;
+top: 33px;
+left: 33px;
+background-color: #FFF4CD;
+width: 24px;
+height: 24px;
+border-radius: 100%;
+opacity: 50%;
+z-index: 2; 
+}
+
+.description-icons  .ellipseS{
+  position: absolute;
+  top: 33px;
+  left: -5px;
+  background-color:#FFF4CD;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  opacity: 50%;
+  z-index: 2;
+}
 .button {
     margin-top: 5%;
     font-size: 12px;
@@ -103,9 +151,11 @@ margin-top: 5%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 10%;
+
 }
 .organic-item-text{
-    font-size: 14px;
+  padding-top: 2%;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
@@ -114,75 +164,103 @@ margin-top: 5%;
 .organic-item-img{
     width: 5%;
 }
+
 .footer-item {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-right: 5%;
-    margin: 7% 0;
-  }
-  
-  .logo {
-    width: 30%;
-  }
-  
-  .footer-item-title {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: rgba(39, 76, 91, 1);
-    font-weight: bolder;
-    line-height: 60px;
-  }
-  
-  .footer-item-checklist {
-    font-size: 15px;
-    font-weight: bolder;
-  }
-  
-  .footer-item-contact {
-    text-align: right;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: rgba(82, 92, 96, 1);
-    line-height: 29px;
-  }
-  
-  .footer-item-logo {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: rgba(82, 92, 96, 1);
-    line-height: 29px;
-    width: 40%;
-  }
-  
-  .footer-item-utilityPages {
-    text-align: left;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: rgba(82, 92, 96, 1);
-    line-height: 35px;
-  }
-  
-  .footer-item-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8% 18% 0 18%;
-  }
-  
-  .footer-item-icons img {
-    width: 80%;
-  }
-  
-  .end {
-    padding: 1% 0;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: rgba(82, 92, 96, 1);
-  }
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 5%;
+  margin: 7% 0%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.footer-item-title {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(39, 76, 91, 1);
+  font-weight: bolder;
+  line-height: 60px;
+}
+
+.footer-item-checklist {
+  margin-top: 7%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.footer-item-contact {
+  padding-bottom: 5%;
+  text-align: right;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgba(82, 92, 96, 1);
+  line-height: 29px;
+}
+
+.footer-item-logo {
+  padding-top: 2%;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgba(82, 92, 96, 1);
+  line-height: 29px;
+  width: 50%;
+}
+
+.footer-item-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 14% 15% 0 15%;
+  width: 100%;
+  height: 90px;
+}
+.footer-item-icons-window{
+  background-color: #EFF6F1;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.footer-item-icons img {
+  width: 100%;
+  display:block;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  bottom:25px;
+  background-color:#EFF6F1;
+  border-radius: 100%;
+  position: absolute;
+  z-index: auto;
+  opacity: 50%;
+}
+
+.footer-item-utilityPages {
+  text-align: left;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgba(82, 92, 96, 1);
+  line-height: 35px;
+}
+.footer-item-utilityPages div{
+  margin-top: 5%;
+}
+.end {
+  padding: 1% 0;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgba(82, 92, 96, 1);
+}

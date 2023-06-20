@@ -14,27 +14,29 @@
   }
 
 .conteiner-info{
-    margin-left: 60%;
+    margin: 6% 0% 0% 60%;
 }
 
   .conteiner-info-error{
-color: rgba(143, 168, 168, 1);
-font-family: 'Open Sans', sans-serif;
-font-size: 250px;
-font-weight: bold;
+    margin-left: 5%;
+    color: rgba(143, 168, 168, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 175px;
+    font-weight: bold;
   }
   .conteiner-info-title{
-    font-size: 45px;
+    padding-left: 7%;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: rgb(39, 76, 91);
   }
   .conteiner-info-text{
-    font-size: 14px;
-  font-family: 'Open Sans';
-  font-weight: 400;
-  color: rgba(82, 92, 96, 1);
-  line-height: 29.77px;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(82, 92, 96, 1);
+    line-height: 29.77px;
   }
 
   .conteiner-info .button {

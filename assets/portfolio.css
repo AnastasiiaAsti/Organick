@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .conteiner {
+    width: 100%;
+  }
+  
+  .banner-item {
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
+  }
+  
+  .banner-item img {
+    width: 100%;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .banner-item-text {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+  }
+
+
+  .portfolio-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 14% 0% 14%;
+  }
+  .portfolio-itemFirst, .portfolio-itemSecond{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+  }
+  .portfolio-item-img img{
+    width: 100%;
+    height: auto; 
+  }
+  .portfolio-item-title{ 
+    padding-top: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 76, 91); }
+
+  .portfolio-item-text{
+    padding-top: 1%;
+    font-size: 17px;
+    font-family: "Yellowtail", cursive;
+    color: rgb(126, 182, 147);
+  }
+  .dist{
+    margin: 0 2%;
+  }
+.portfolio-item-imgRaspberry{
+  position: relative;
+  width: 310px;
+  height: 310px; 
+  text-align: center;
+}
+
+.portfolio-item-imgRaspberry img{
+  position: absolute;
+  display: inline-block;
+  top: 47%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.raspberrytitle{
+  padding-top: 0%;
+}
+.portfolio-item-imgRaspberry img:nth-child(2) {
+  width: 88%; 
+  height: auto; 
+}
+
+.portfolio-item-imgRaspberry img:nth-child(3) {
+  width: 11%; 
+  height: auto; 
+}

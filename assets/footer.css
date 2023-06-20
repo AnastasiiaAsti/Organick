@@ -8,9 +8,8 @@
   }
 
 
-
 .subscribe-item {
-    width: 100%;
+    width: 90%;
     height: 50vh;
     display: flex;
     flex-direction: row;
@@ -21,17 +20,17 @@
     background-repeat: no-repeat;
     background-size: 80%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   
   .subscribe-item-title {
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     line-height: 58.59px;
-    width: 28%;
-    padding-left: 4.5%;
+    width: 35%;
+    padding-left: 7%;
   }
   
   .subscribe-item-content {
@@ -42,7 +41,7 @@
     line-height: 58.59px;
     display: flex;
     flex-direction: row;
-    padding-right: 4.5%;
+    padding-right: 8%;
   }
   
   .form__item {
@@ -77,7 +76,8 @@
   }
   
   .footer-item {
-    width: 80%;
+    width: 70%;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -98,13 +98,15 @@
   }
   
   .footer-item-checklist {
+    margin-top: 7%;
     font-size: 15px;
     font-weight: bolder;
   }
   
   .footer-item-contact {
+    padding-bottom: 5%;
     text-align: right;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
@@ -112,38 +114,62 @@
   }
   
   .footer-item-logo {
+    padding-top: 2%;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
     line-height: 29px;
-    width: 40%;
-  }
-  
-  .footer-item-utilityPages {
-    text-align: left;
-    font-size: 14px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    color: rgba(82, 92, 96, 1);
-    line-height: 35px;
+    width: 50%;
   }
   
   .footer-item-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 8% 18% 0 18%;
+    justify-content: space-evenly;
+    padding: 14% 15% 0 15%;
+    width: 100%;
+    height: 90px;
   }
-  
+  .footer-item-icons-window{
+    background-color: #EFF6F1;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
   .footer-item-icons img {
-    width: 80%;
+    width: 100%;
+    display:block;
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    bottom:25px;
+    background-color:#EFF6F1;
+    border-radius: 100%;
+    position: absolute;
+    z-index: auto;
+    opacity: 50%;
   }
   
+  .footer-item-utilityPages {
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(82, 92, 96, 1);
+    line-height: 35px;
+  }
+  .footer-item-utilityPages div{
+    margin-top: 5%;
+  }
   .end {
     padding: 1% 0;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);

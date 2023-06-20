@@ -6,37 +6,76 @@
   .conteiner {
     width: 100%;
   }
-  .banner-item  {
-    background-color: #F9F8F8;
+  
+
+  .banner-item {
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto';
+    color: var(--dark-green);
+    font-weight: 800;
+    font-size: 40px;
   }
+  
   .banner-item img {
     width: 100%;
   }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  .banner-item-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
 
   .description-item{
     width: 100%;
-    font-size: 14px;
-  font-family: 'Open Sans';
-  font-weight: 400;
-  color: rgba(82, 92, 96, 1);
-  line-height: 29px;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(82, 92, 96, 1);
+    line-height: 29px;
   }
   .description-item-content{
     display: flex;
     flex-direction: row;
-    padding:10% 5% 0 10%;
+    padding:10% 5% 0 14%;
   }
-
-img {
+.pistachios{
+    position: relative;
+    width: 40%;
+}
+.pistachios-img {
     width: 100%;
 }
-
+.pistachios-label{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 73px;
+    height: 31px;
+    background-color: rgba(39, 76, 91, 1);
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
 .description-item-content-text{
     padding: 6%;
 }
 
 .description-item-content-text-title{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   color: rgb(39, 76, 91);
@@ -49,14 +88,14 @@ img {
 }
 
 .description-item-content-text-price span {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: normal;
     color: rgba(184, 184, 184, 1);
     margin-right: 5px;
     text-decoration: line-through;
 }
 .description-item-content-text-price p {
-    font-size: 25px;
+  font-size: 18px;
   font-family: 'Open Sans';
   font-weight: bold;
   color:rgba(39, 76, 91, 1);
@@ -125,7 +164,7 @@ img {
   }
 .button {
     margin: 5% 0 3% 0;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -136,11 +175,15 @@ img {
     border-radius: 14px;
     border: none;
   }
-  
-.button-info{
-    background-color: rgba(239, 246, 241, 1);
-    color: rgba(39, 76, 91, 1);
-}
+  .button-desc{
+    margin-right: 1%;
+    width: 250px;
+    height: 50px;
+  }
+  .button-info{
+      background-color: rgba(239, 246, 241, 1);
+      color: rgba(39, 76, 91, 1);
+  }
 
 
 .products-item {
@@ -153,18 +196,18 @@ img {
     align-items: center;
 }
 .products-item-title{
-    font-size: 45px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(39, 76, 91);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 76, 91);
 }
 .products-item-content{
-    margin-top: 5%;
+    margin-top: 2%;
+    padding: 0 13% 0 13%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 10% 0 10%;
 }
 .products-item-content-item {
     width: 30%;
@@ -210,7 +253,8 @@ img {
 }
 
 .details p {
-    font-size: 20px;
+    font-size: 13px;
+    font-weight: 700;
     margin: 10px;
     color: var(--dark-green);
 }
