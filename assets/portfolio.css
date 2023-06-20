@@ -31,7 +31,7 @@
   
   .banner-item-text {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 33%;
   }
 
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5% 10% 0% 10%;
+    margin: 5% 14% 0% 14%;
   }
   .portfolio-itemFirst, .portfolio-itemSecond{
     display: flex;
@@ -49,6 +49,7 @@
   }
   .portfolio-item-img img{
     width: 100%;
+    height: auto; 
   }
   .portfolio-item-title{ 
     padding-top: 2%;
@@ -66,3 +67,29 @@
   .dist{
     margin: 0 2%;
   }
+.portfolio-item-imgRaspberry{
+  position: relative;
+  width: 310px;
+  height: 310px; 
+  text-align: center;
+}
+
+.portfolio-item-imgRaspberry img{
+  position: absolute;
+  display: inline-block;
+  top: 47%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.raspberrytitle{
+  padding-top: 0%;
+}
+.portfolio-item-imgRaspberry img:nth-child(2) {
+  width: 88%; 
+  height: auto; 
+}
+
+.portfolio-item-imgRaspberry img:nth-child(3) {
+  width: 11%; 
+  height: auto; 
+}

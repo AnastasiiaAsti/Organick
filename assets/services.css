@@ -47,8 +47,7 @@
 }
 
 .products-item-intro, .organic-item-intro{
-    padding-bottom: 3%;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: rgb(39, 76, 91);
@@ -155,7 +154,8 @@ z-index: 2;
 
 }
 .organic-item-text{
-    font-size: 14px;
+  padding-top: 2%;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
     color: rgba(82, 92, 96, 1);
@@ -164,13 +164,15 @@ z-index: 2;
 .organic-item-img{
     width: 5%;
 }
+
 .footer-item {
-  width: 80%;
+  width: 70%;
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-right: 5%;
-  margin: 7% 0;
+  margin: 7% 0%;
 }
 
 .logo {
@@ -186,13 +188,15 @@ z-index: 2;
 }
 
 .footer-item-checklist {
+  margin-top: 7%;
   font-size: 15px;
   font-weight: bolder;
 }
 
 .footer-item-contact {
+  padding-bottom: 5%;
   text-align: right;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Open Sans';
   font-weight: 400;
   color: rgba(82, 92, 96, 1);
@@ -200,20 +204,21 @@ z-index: 2;
 }
 
 .footer-item-logo {
+  padding-top: 2%;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Open Sans';
   font-weight: 400;
   color: rgba(82, 92, 96, 1);
   line-height: 29px;
-  width: 40%;
+  width: 50%;
 }
 
 .footer-item-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 8% 15% 0 15%;
+  padding: 14% 15% 0 15%;
   width: 100%;
   height: 90px;
 }
@@ -243,16 +248,18 @@ z-index: 2;
 
 .footer-item-utilityPages {
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Open Sans';
   font-weight: 400;
   color: rgba(82, 92, 96, 1);
   line-height: 35px;
 }
-
+.footer-item-utilityPages div{
+  margin-top: 5%;
+}
 .end {
   padding: 1% 0;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Open Sans';
   font-weight: 400;
   color: rgba(82, 92, 96, 1);
