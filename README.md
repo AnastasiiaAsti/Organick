@@ -1,10 +1,10 @@
 ## ORGANICK website
 
 Figma:
-https://www.figma.com/file/bAsBgzxReUWeArEHvfnA2c/Agriculture-Webflow-Website-Template-(Community)?node-id=1%3A430&t=VNIzAilHFOW8Hbd6-1
+<a href="https://www.figma.com/file/bAsBgzxReUWeArEHvfnA2c/Agriculture-Webflow-Website-Template-(Community)?node-id=1%3A430&t=VNIzAilHFOW8Hbd6-1">HERE</a>
 
 Trello:
-https://trello.com/invite/b/2rkwpwVA/ATTIdf5eae9421d69328607032524b8b498f503A5E26/freelance
+<a href="https://trello.com/invite/b/2rkwpwVA/ATTIdf5eae9421d69328607032524b8b498f503A5E26/freelance">HERE</a>
 
  
  
